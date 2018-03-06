@@ -194,18 +194,18 @@ header.masthead h2 {
   }
 }
 
-.PC Build {
+.PCBuild {
   margin-bottom: -15px;
 }
 
-.PC Build .PC Build-item {
+.PCBuild .PCBuild-item {
   position: relative;
   display: block;
   max-width: 25rem;
   margin-bottom: 15px;
 }
 
-.PC Build .PC Build-item .PC Build-item-caption {
+.PCBuild .PCBuild-item .PCBuild-item-caption {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
@@ -213,24 +213,24 @@ header.masthead h2 {
   background-color: rgba(24, 188, 156, 0.9);
 }
 
-.PC Build .PC Build-item .PC Build-item-caption:hover {
+.PCBuild .PCBuild-item .PCBuild-item-caption:hover {
   opacity: 1;
 }
 
-.PC Build .PC Build-item .PC Build-item-caption .PC Build-item-caption-content {
+.PCBuild .PCBuild-item .PCBuild-item-caption .PCBuild-item-caption-content {
   font-size: 1.5rem;
 }
 
 @media (min-width: 576px) {
-  .PC Build {
+  .PCBuild {
     margin-bottom: -30px;
   }
-  .portfolio .PC Build-item {
+  .PCBuild .PCBuild-item {
     margin-bottom: 30px;
   }
 }
 
-.PC Build-modal .PC Build-modal-dialog {
+.PCBuild-modal .PCBuild-modal-dialog {
   padding: 3rem 1rem;
   min-height: calc(100vh - 2rem);
   margin: 1rem calc(1rem - 8px);
@@ -241,27 +241,27 @@ header.masthead h2 {
   box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
 }
 
-.PC Build-modal .PC Build-modal-dialog .close-button {
+.PCBuild-modal .PCBuild-modal-dialog .close-button {
   position: absolute;
   top: 2rem;
   right: 2rem;
 }
 
-.PC Build-modal .PC Build-modal-dialog .close-button i {
+.PCBuild-modal .PCBuild-modal-dialog .close-button i {
   line-height: 38px;
 }
 
-.PC Build-modal .PC Build-modal-dialog h2 {
+.PCBuild-modal .PCBuild-modal-dialog h2 {
   font-size: 2rem;
 }
 
 @media (min-width: 768px) {
-  .PC Build-modal .PC Build-modal-dialog {
+  .PCBuild-modal .PCBuild-modal-dialog {
     min-height: 100vh;
     padding: 5rem;
     margin: 3rem calc(3rem - 8px);
   }
-  .PC Build-modal .PC Build-modal-dialog h2 {
+  .PCBuild-modal .PCBuild-modal-dialog h2 {
     font-size: 3rem;
   }
 }
